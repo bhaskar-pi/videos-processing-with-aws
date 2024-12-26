@@ -16,6 +16,7 @@ This web application allows users to upload videos, view all uploaded videos, an
 - **Backend:** Node.js, Express
 - **Video Processing:** FFmpeg
 - **Package Manager:** Yarn
+- **More:** Microservices, Aws services (cognito, s3, secrets manager, parameters manager, dynamodb, lambda, sns, sqs)
 
 ## Getting Started
 
