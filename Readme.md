@@ -37,9 +37,7 @@ brew install ffmpeg (in local system(terminal) for mac)
 ```
 
 ### Configure Environment Variables
-- Create a `.env` file in the backend directory and configure your environment variables
-PORT=5001
-MONGO_URI= 'your db url'
+- Create a `.env` file in the backend directory in each micro service and update values accordingly'
 
 # Start the frontend development server
 cd app
@@ -47,8 +45,8 @@ yarn dev
 
 
 # Start the backend server
-cd server
-yarn start
+cd microservices
+yarn start (run this command by moving to each service)
 
 - This will start the Node.js server at http://localhost:5001
 
