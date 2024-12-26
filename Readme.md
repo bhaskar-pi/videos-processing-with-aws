@@ -48,7 +48,7 @@ yarn dev
 cd microservices
 yarn start (run this command by moving to each service)
 
-- This will start the Node.js server at http://localhost:5001
+- This will start the Node.js server at http://localhost:${port}
 
 
 This file now includes headings for `Technologies Used`, `Getting Started`, `Scripts`, and `License`, providing a more structured and comprehensive guide for setting up and running the application.
