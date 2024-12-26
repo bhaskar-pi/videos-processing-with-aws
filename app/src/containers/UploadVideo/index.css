@@ -1,0 +1,112 @@
+
+.upload-video-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #D6F2FF; 
+  background-image: url('../../assets/cool-background-r.png');
+  background-size: cover;
+  padding: 10px;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 40px;
+  padding: 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+
+.upload-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.upload-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.upload-form-container {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.upload-title {
+  color: #23236B; 
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.form-group {
+  text-align: left;
+}
+
+.input-field,
+.textarea-field,
+.file-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6E79AA; 
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+  border-color: #23236B; 
+  outline: none;
+}
+
+
+.textarea-field {
+  resize: vertical;
+  min-height: 120px;
+}
+
+
+.file-input {
+  padding: 12px;
+  border: 2px dashed #6E79AA; 
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.file-input:hover {
+  border-color: #23236B; 
+}
+
+.upload-button {
+  background-color: #23236B;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #151C49; 
+}
